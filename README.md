@@ -6,6 +6,25 @@ This repository contains a PHP-based login page developed using PHP 7 and MySQL,
 
 
 
+## Changes
+
+📌Do this changes as yours in connection.php file 
+
+```bash
+  <?php
+    $hostname = //your host;
+    $username = //database username;
+    $password = //databse password;
+    $dbname = //database password;
+    $conn = new mysqli($hostname,$username,$password,$dbname);
+    if($conn->connect_error){
+        die("Connection error".$conn->connect_error);
+    }
+?>
+
+```
+
+
 ## Features☂️⚡️
 
 #### 📌User Registration
@@ -76,12 +95,12 @@ https://zeusorgpjp.000webhostapp.com/
 
 
 
-## Author🐱
+## Author😽
 
 - [@zeusielk](https://github.com/zeusielk)
 
 
-## Sql Injection
+## Sql Injection💉
 
 Feel free to deploy your sql Injection attacks here😉🍌
 
